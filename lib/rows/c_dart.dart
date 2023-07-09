@@ -5,16 +5,16 @@ import '../colors/colors.dart';
 
 Widget thirdRow({numbers}) => Row(
       children: [
-        button(
+        Button(
           text: numbers[8],
         ),
-        button(
+        Button(
           text: numbers[9],
         ),
-        button(
+        Button(
           text: numbers[10],
         ),
-        button(
+        Button(
           text: numbers[11],
                textColor: orangeColor,
           backgroundColor: operatorColor,

@@ -5,24 +5,25 @@ import '../buttons/button.dart';
 
 Widget firstRow({numbers}) => Row(
       children: [
-        button(
+        Button(
           text: numbers[0],
           textColor: orangeColor,
           backgroundColor: operatorColor,
         ),
-        button(
+        Button(
           text: numbers[1],
-              textColor: orangeColor,
+          textColor: orangeColor,
           backgroundColor: operatorColor,
         ),
-        button(
-          text: numbers[2],
-               textColor: orangeColor,
+        Button(
+          text: numbers[19],
+          textColor: orangeColor,
           backgroundColor: operatorColor,
         ),
-        button(
+       
+        Button(
           text: numbers[3],
-               textColor: orangeColor,
+          textColor: orangeColor,
           backgroundColor: operatorColor,
         ),
       ],

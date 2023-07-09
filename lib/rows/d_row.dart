@@ -6,16 +6,16 @@ import '../colors/colors.dart';
 Widget forthRow({numbers}) => Row(
   
       children: [
-        button(
+        Button(
           text: numbers[12],
         ),
-        button(
+        Button(
           text: numbers[13],
         ),
-        button(
+        Button(
           text: numbers[14],
         ),
-        button(
+        Button(
           text: numbers[15],
                textColor: orangeColor,
           backgroundColor: operatorColor,
